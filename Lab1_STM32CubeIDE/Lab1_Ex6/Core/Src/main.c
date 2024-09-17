@@ -93,7 +93,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   // Exercises 6:
-  while (1)
+ while (1)
   {
 	  for(int num=0; num<=12; num++)
 	  {

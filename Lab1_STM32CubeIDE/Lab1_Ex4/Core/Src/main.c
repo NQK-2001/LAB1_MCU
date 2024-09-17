@@ -198,7 +198,6 @@ int main(void)
   int counter = 0;
   while (1)
  {
-   //counter++;
    if(counter >= 0 && counter < 5)
    {
 	HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, SET);
@@ -245,10 +244,6 @@ int main(void)
   }
 }
 
-/**
-  * @brief System Clock Configuration
-  * @retval None
-  */
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
